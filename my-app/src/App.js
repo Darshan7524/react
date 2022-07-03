@@ -7,7 +7,7 @@ function App() {
       <h1>first line</h1>
       <p> I am learning react.js</p>
      <Helloworld text="react js is a javascript library"></Helloworld>
-     <Byeworld text = "react is easy"></Byeworld>
+     <Byeworld text = "reactjs is easy"></Byeworld>
     </div>
   );
 }
