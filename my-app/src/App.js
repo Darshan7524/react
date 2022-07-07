@@ -6,10 +6,7 @@ import Contact from "./routes/Contact";
 import Home from "./routes/Home";
 import About from "./routes/About";
 
-
 function App() {
- 
-
   return (
     <div className="App">
       <nav>
@@ -27,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/About" element={ <About/>} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </div>
   );

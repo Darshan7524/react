@@ -1,17 +1,17 @@
 import React from "react";
-import {Helloworld, Byeworld } from './Helloworld';
+import { Helloworld, Byeworld } from "./Helloworld";
 import { useState, useEffect } from "react";
 
 function Home() {
-    const [counter, setcounter] = useState(0);
-    const increment = () => {
-      setcounter(counter + 1);
-    };
-    console.log(counter);
-  
-    useEffect(() => {
-      document.title = `clicked ${counter} times `;
-    }, [counter]);
+  const [counter, setcounter] = useState(0);
+  const increment = () => {
+    setcounter(counter + 1);
+  };
+  console.log(counter);
+
+  useEffect(() => {
+    document.title = `clicked ${counter} times `;
+  }, [counter]);
 
   return (
     <div>
@@ -23,6 +23,6 @@ function Home() {
       <h1>{counter}</h1>
     </div>
   );
-};
+}
 
 export default Home;
